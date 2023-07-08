@@ -1,15 +1,19 @@
 body{
-background-color: white;
-}
-
-.buttons{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
+background-color: #4BBD86;
 }
 
 h1{
+    text-align: center;
+}
+
+.computer{
+    text-align: right;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.target{
     text-align: center;
 }
