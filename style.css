@@ -1,24 +1,34 @@
 body{
-background-color: #4BBD86;
+background-color: #EEEEEE;
+font-family: 'Lilita One', cursive;
+color: #222831;
 }
 
 h1{
     text-align: center;
+    font-size: 75px;
 }
-
 .score_board{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
+    font-size: 40px;
 }
-    
+
 .target{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    
 }
 
+.player{
+  background-color: #EEEEEE;  
+}
+.computer{
+    background-color: #EEEEEE;
+}
 
 img{
     height: 100px;
@@ -30,6 +40,7 @@ img{
 }
 
 .keys {
+    margin-top: 100px;
     min-width: 130px;
     height: 40px;
     color: #fff;
@@ -45,13 +56,11 @@ img{
     background: #343a40;
     box-shadow: 0 5px #212529;
   }
-
-.keys:hover {
+  .keys:hover {
     box-shadow: 0 3px #212529;
     top: 1px;
   }
-
-.keys:active {
+  .keys:active {
     box-shadow: 0 0 #212529;
     top: 5px;
-}
+  }
