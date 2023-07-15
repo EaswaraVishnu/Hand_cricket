@@ -1,7 +1,7 @@
 'use strict'
 //Generating target score
 let score = 0
-const target = Math.trunc(Math.random()*10+1);
+const target = Math.trunc(Math.random()*100+1);
 document.querySelector(".target_text").textContent = `Your target score is ${target}`;
 
 
